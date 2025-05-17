@@ -1,13 +1,22 @@
 <meta charset="UTF-8" />
 <script>
-    var ano = 2025;
+  var ano = 2025;
 
-    document.write('Beatriz nasceu em ' + (ano - 23) + '<br>')
-    document.write('João nasceu em ' + (ano - 26) + '<br>');
+  var idadeBeatriz = 23;
+  var idadeJoao = 26;
+  var idadeGustavo = 18;   
 
-    ano = 2026;
-    document.write('Gustavo nasceu em ' + (ano - 18) + '<br>');
+  var nome = 'Beatriz';
+  document.write(nome + " nasceu em " + (ano - idadeBeatriz) + "<br>");
 
-    var media = (23 + 26 + 18) / 3;
-    document.write('A média das idades é: ' + Math.round(media));
+  nome = 'João'; 
+  document.write(nome + " nasceu em " + (ano - idadeJoao) + "<br>");
+
+  nome = 'Gustavo';
+
+  ano = 2026;
+  document.write(nome + " nasceu em " + (ano - idadeGustavo) + "<br>");
+
+  var media = (idadeBeatriz + idadeJoao + idadeGustavo) / 3;
+  document.write("A média das idades é: " + Math.round(media));
 </script>
