@@ -1,0 +1,17 @@
+function pularLinha() {
+  document.write("<br>");
+}
+
+function mostrar(frase) {
+  document.write(frase);
+  pularLinha();
+}
+
+var ano = 2025;
+
+mostrar("Beatriz tem " + (ano - 2002) + " anos");
+
+mostrar("João tem " + (ano - 1999) + " anos");
+
+ano = 2026;
+mostrar("Gustavo tem " + (ano - 2008) + " anos");
