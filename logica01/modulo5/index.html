@@ -15,7 +15,11 @@
         pularLinha();
     }
 
-    var imcVictor = calcularImc(70, 1.62);
-    mostra(Math.round(imcVictor));
+    var pesoInformado = Number(prompt('Informe seu peso'));
+    var alturaInformada = Number(prompt('Informe sua altura'));
+    var imc = calcularImc(pesoInformado, alturaInformada);
+    mostra(imc.toFixed(2));
+
+    
 
 </script>
