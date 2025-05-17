@@ -3,7 +3,7 @@
 
     function calcularImc (peso,altura) {
         var imc = peso / (altura * altura);
-        mostra('O cálculo do IMC é: ' + Math.round(imc));
+        return imc;
     }
     
     function pularLinha() {
@@ -15,6 +15,7 @@
         pularLinha();
     }
 
-    calcularImc(70, 1.62);
+    var imcVictor = calcularImc(70, 1.62);
+    mostra(Math.round(imcVictor));
 
 </script>
