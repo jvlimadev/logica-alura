@@ -1,13 +1,16 @@
 <meta charset="UTF-8">
 <script>
 
+    function pularLinha() {
+        document.write('<br>');
+    }
+
     var ano = 2025;
-    var puloLinha = '<br>';
 
     document.write('Beatriz tem ' + (ano - 2002) + ' anos');
-    document.write(puloLinha);
+    pularLinha()
     document.write('João tem ' + (ano - 1999) + ' anos');
-    document.write(puloLinha);
+    pularLinha();
 
     ano = 2026;
     document.write('Gustavo tem ' + (ano - 2008) + ' anos');
