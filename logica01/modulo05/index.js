@@ -20,8 +20,8 @@ var imc = calcularImc(pesoInformado, alturaInformada);
 if (imc < 17) {
   mostra('Seu imc está abaixo do peso ideal');
 }
-if (imc >= 18.5) {
-  if (imc <= 25) {
-    mostrar('Seu imc está no peso ideal.');
-  }
+if (imc >= 18.5 && imc <= 25) {
+  mostrar('Seu imc está no peso ideal');
 }
+
+
