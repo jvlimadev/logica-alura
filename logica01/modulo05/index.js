@@ -21,7 +21,8 @@ if (imc < 17) {
   mostra('Seu imc está abaixo do peso ideal');
 }
 if (imc >= 18.5 && imc <= 25) {
-  mostrar('Seu imc está no peso ideal');
+  mostra('Seu imc está no peso ideal');
 }
-
-
+if (imc > 25) {
+  mostra('Seu imc está acima do peso ideal');
+}
