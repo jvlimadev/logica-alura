@@ -16,4 +16,7 @@ var nomeInformado = prompt("Informe seu nome: ");
 var pesoInformado = Number(prompt("Informe seu peso"));
 var alturaInformada = Number(prompt("Informe sua altura"));
 var imc = calcularImc(pesoInformado, alturaInformada);
-mostra(`${nomeInformado} seu IMC é ${imc.toFixed(2)}`);
+
+if (imc < 17) {
+  mostra('Seu imc está abaixo do peso ideal');
+}
