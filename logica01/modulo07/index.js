@@ -1,10 +1,19 @@
-var numeroPensado = 5;
-var chute = parseInt(prompt('Digite seu chute: '));
-
-if(chute == numeroPensado) {
-    console.log('Você Acertou!');
+function pularLinha() {
+  document.write("<br>");
 }
 
-if(chute !== numeroPensado) {
-    console.log('Você Errou! o número pensado foi ' + numeroPensado);
+function mostrar(frase) {
+  document.write(frase);
+  pularLinha();
+}
+
+var numeroPensado = 5;
+var chute = parseInt(prompt("Digite seu chute: "));
+
+if (chute == numeroPensado) {
+  mostrar("Você Acertou!");
+}
+
+if (chute !== numeroPensado) {
+  mostrar("Você Errou! o número pensado foi " + numeroPensado);
 }
