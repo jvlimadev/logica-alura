@@ -7,7 +7,8 @@ function mostrar(frase) {
   pularLinha();
 }
 
-var numeroPensado = 5;
+var numeroPensado = Math.round(Math.random() * 10);
+alert(numeroPensado)
 var chute = parseInt(prompt("Digite seu chute: "));
 
 if (chute == numeroPensado) {
