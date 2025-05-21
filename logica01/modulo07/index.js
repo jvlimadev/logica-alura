@@ -12,8 +12,6 @@ var chute = parseInt(prompt("Digite seu chute: "));
 
 if (chute == numeroPensado) {
   mostrar("Você Acertou!");
-}
-
-if (chute !== numeroPensado) {
+} else {
   mostrar("Você Errou! o número pensado foi " + numeroPensado);
 }
