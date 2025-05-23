@@ -9,7 +9,6 @@ function mostrar(frase) {
 
 var anoCopa = 1930;
 
-while(anoCopa <= 2025) {
-    mostrar(`Teve copa em ${anoCopa}`);
-    anoCopa += 4;
+for(let i = anoCopa; i <= 2025; i += 4 ) {
+    mostrar(`Teve copa em ${i}`);
 }
