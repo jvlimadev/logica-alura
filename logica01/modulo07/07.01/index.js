@@ -8,8 +8,8 @@ function mostrar(frase) {
 }
 
 var anoCopa = 1930;
-mostrar(`Teve copa em ${anoCopa}`);
-anoCopa += 4;
-mostrar(`Teve copa em ${anoCopa}`);
-anoCopa += 4;
-mostrar(`Teve copa em ${anoCopa}`);
+
+while(anoCopa <= 2025) {
+    mostrar(`Teve copa em ${anoCopa}`);
+    anoCopa += 4;
+}
