@@ -1,18 +1,22 @@
 function pularLinha() {
-    document.write("<br>");
+  document.write("<br>");
 }
 
 function mostrar(frase) {
-    document.write(frase);
-    pularLinha();
+  document.write(frase);
+  pularLinha();
 }
 
-var idadePedro = 28;
-var idadeMaria = 32;
-var idadeJorge = 60;
-var idadeBete = 22;
+var quantidadeFamiliares = parseInt(
+  prompt("Informe a quantidade de familiares")
+);
+var contador = 0;
+var totalIdade = 0;
 
-var totalIdades = idadePedro + idadeMaria + idadeJorge + idadeBete;
-var mediaIdades = totalIdades / 4;
+while (contador < quantidadeFamiliares) {
+  var idade = parseInt(prompt('Informe a idade do familiar: '));  
+  totalIdade += idade;
+  contador++;
+}
 
-mostrar(mediaIdades);
+mostrar(totalIdade);
