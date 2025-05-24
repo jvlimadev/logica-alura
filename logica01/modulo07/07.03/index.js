@@ -11,7 +11,6 @@ function mostrar(frase) {
 var numeroSecreto = Math.round(Math.random() * 10);
 var chute;
 var tentativas = 1;
-console.log(numeroSecreto);
 
 while(tentativas <= 3) {
   chute = parseInt(prompt('Informe seu chute'));
