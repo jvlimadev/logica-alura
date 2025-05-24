@@ -4,13 +4,23 @@ function pularLinha() {
 
 function mostrar(frase) {
   document.write(frase);
+  pularLinha();
 }
+
 
 var numeroSecreto = Math.round(Math.random() * 10);
-var chute = parseInt(prompt('Informe seu chute'));
+var chute;
+var tentativas = 1;
 
-if(chute == numeroSecreto) {
-  mostrar('Acertou!');
-} else {
-  mostrar('Errou');
+while(tentativas <= 3) {
+  chute = parseInt(prompt('Informe seu chute'));
+
+  if(chute == numeroSecreto) {
+    mostrar('Você Acertou!');
+  } else {
+    mostrar('Você Errou!');
+  }
+  tentativas++;
 }
+
+mostrar('FIM');
