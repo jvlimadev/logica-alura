@@ -143,11 +143,12 @@ Neste módulo, desenvolvemos uma pequena calculadora de IMC (Índice de Massa Co
 🧪 Exemplo de uso:
 
  Usuário informa:
- - Nome: Ana
 
- - Peso: 70
+ 1️⃣ Nome: **Ana**
 
- - Altura: 1.75
+ 2️⃣ Peso: **70**
+
+ 3️⃣ Altura: **1.75**
 
 📌 Observações:
 
@@ -156,3 +157,33 @@ Neste módulo, desenvolvemos uma pequena calculadora de IMC (Índice de Massa Co
 - A função `calcularImc()` mostra como reutilizar lógica com entrada personalizada.
 
 - O programa é interativo e adaptável a qualquer usuário, o que o torna mais prático e realista.
+
+## ✅ Módulo 06 – Calculadora de Pontuação no Campeonato
+Neste módulo, o objetivo foi criar um sistema que calcula a pontuação de um time com base nas vitórias e empates, e compara com a pontuação do ano anterior.
+
+🧠 Conceitos abordados:
+
+- Entrada de dados com `prompt()`
+
+- Conversão para número inteiro com `parseInt()`
+
+- Cálculo de pontuação com operadores matemáticos
+
+- Condicionais para comparação `(if)`
+
+- Funções reutilizáveis para exibição de mensagens
+
+🧾 Saída esperada:
+
+<p align="center">
+  <img src="./imagens/modulo06/pontos.gif">
+ </p>
+
+🧪 Exemplo de uso:
+Usuário informa:
+
+= Vitórias: 8
+
+- Empates: 4
+
+   → Pontos: 8×3 + 4 = 28
