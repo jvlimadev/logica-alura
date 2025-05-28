@@ -187,3 +187,31 @@ Usuário informa:
 - Empates: 4
 
    → Pontos: 8×3 + 4 = 28
+
+---
+
+## ✅ Módulo 07 - Exercício 00: Adivinhe o Número
+Este exercício simula um jogo simples em que o programa pensa em um número aleatório entre 0 e 10, e o usuário tenta adivinhar.
+
+🧠 Conceitos abordados:
+
+- Geração de números aleatórios com `Math.random()` e `Math.round()`
+
+- Conversão de string para número com `parseInt()`
+
+- Condicional `if / else`
+
+- Funções personalizadas para organização do código
+
+🧾 Saída esperada:
+
+ <p align="center">
+  <img src="./imagens/modulo07/00/numeroSecreto.gif">
+ </p>
+
+🧪 Exemplo de uso:
+
+- Usuário digita: 7
+- Número pensado aleatoriamente: 7
+
+   → Resultado: Você Acertou!
