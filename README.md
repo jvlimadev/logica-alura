@@ -215,3 +215,55 @@ Este exercício simula um jogo simples em que o programa pensa em um número ale
 - Número pensado aleatoriamente: 7
 
    → Resultado: Você Acertou!
+
+## ✅ Módulo 07 - Exercício 01: Anos de Copa
+Este exercício lista todos os anos em que houve Copa do Mundo, de 1930 até 2025, assumindo que a competição ocorre a cada 4 anos.
+
+🧠 Conceitos abordados:
+
+- Laço de repetição `for`
+
+- Inicialização, condição e incremento no `for`
+
+- Organização do código com funções auxiliares
+
+🧾 Saída esperada:
+
+ <p align="center">
+  <img src="./imagens/modulo07/01/copa.png">
+ </p>
+
+📌 Observação:
+
+Este exercício não considera as Copas que foram canceladas por causa da Segunda Guerra Mundial (1942 e 1946), pois o foco aqui é a estrutura do laço e o raciocínio lógico, não a precisão histórica.
+
+## ✅ Módulo 07 - Exercício 02: Soma das Idades dos Familiares
+Neste exercício, o usuário informa quantos familiares deseja registrar e, em seguida, digita a idade de cada um. O sistema calcula a soma total dessas idades.
+
+🧠 Conceitos abordados:
+
+- Laço de repetição `while`
+
+- Contador manual
+
+- Acumulador de valores
+
+- Entrada de dados com `prompt()`
+
+- Conversão de strings com `parseInt()`
+
+🧾 Saída esperada:
+
+<p align="center">
+  <img src="./imagens/modulo07/02/">
+ </p>
+
+
+
+🧪 Exemplo de uso:
+
+- Quantidade de familiares: 3
+
+- Idades digitadas: 20, 35, 25
+
+   → Resultado: 80
