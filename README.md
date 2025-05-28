@@ -144,11 +144,11 @@ Neste módulo, desenvolvemos uma pequena calculadora de IMC (Índice de Massa Co
 
  Usuário informa:
 
- 1️⃣ Nome: **Ana**
+ 1️⃣ Nome: **Victor**
 
  2️⃣ Peso: **70**
 
- 3️⃣ Altura: **1.75**
+ 3️⃣ Altura: **1.62**
 
 📌 Observações:
 
@@ -182,11 +182,11 @@ Neste módulo, o objetivo foi criar um sistema que calcula a pontuação de um t
 🧪 Exemplo de uso:
 Usuário informa:
 
-= Vitórias: 8
+= Vitórias: 10
 
-- Empates: 4
+- Empates: 3
 
-   → Pontos: 8×3 + 4 = 28
+   → Pontos: 10×3 + 3 = 28
 
 ---
 
@@ -255,15 +255,48 @@ Neste exercício, o usuário informa quantos familiares deseja registrar e, em s
 🧾 Saída esperada:
 
 <p align="center">
-  <img src="./imagens/modulo07/02/">
+  <img src="./imagens/modulo07/02/totalIdade.gif">
  </p>
 
 
 
 🧪 Exemplo de uso:
 
-- Quantidade de familiares: 3
+- Quantidade de familiares: 4
 
-- Idades digitadas: 20, 35, 25
+- Idades digitadas: 3, 4, 5, 6
 
-   → Resultado: 80
+   → Resultado: 28
+
+## ✅ Módulo 07 - Exercício 03: Adivinhe o Número (com Tentativas)
+Neste exercício, o usuário deve adivinhar um número aleatório entre 0 e 10. Ele tem até 3 tentativas para acertar. O jogo termina quando o número for descoberto ou as tentativas se esgotarem.
+
+🧠 Conceitos abordados:
+
+- Geração de número aleatório com Math.random()
+
+- Conversão de entrada com `parseInt()`
+
+- Laço `while` com contador de tentativas
+
+- Estrutura de controle `if / else` com `break`
+
+- Funções para exibição e quebra de linha
+
+ Saída esperada:
+
+<p align="center">
+  <img src="./imagens/modulo07/03/numeroSecreto.gif">
+ </p>
+
+🧪 Exemplo de uso:
+
+- Número secreto: 7
+
+- Tentativas:
+
+- 1ª: 1 → "Você Errou!"
+
+- 2ª: 2 → "Você Errou!"
+
+- 3ª: 3 → "Você Acertou!"
