@@ -283,7 +283,7 @@ Neste exercício, o usuário deve adivinhar um número aleatório entre 0 e 10. 
 
 - Funções para exibição e quebra de linha
 
- Saída esperada:
+🧾 Saída esperada:
 
 <p align="center">
   <img src="./imagens/modulo07/03/numeroSecreto.gif">
