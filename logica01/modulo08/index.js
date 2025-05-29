@@ -9,6 +9,8 @@ function verificar() {
   } else {
     alert("Você Errou!");
   }
+  input.value = '';
+  input.focus();
 }
 
 var botao = document.querySelector('button');
