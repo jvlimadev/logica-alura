@@ -302,3 +302,36 @@ Neste exercício, o usuário deve adivinhar um número aleatório entre 0 e 10. 
 - 3ª: 3 → "Você Acertou!"
 
 ---
+
+## ✅ Módulo 08 - Bônus: Jogo com Campo de Entrada e Botão
+Este exercício implementa o jogo de adivinhação com interface de usuário, usando elementos HTML (`input` e `button`) e eventos em JavaScript.
+
+🧠 Conceitos abordados:
+
+- Manipulação do DOM com `document.querySelector`
+
+- Eventos com `onclick`
+
+- Foco e limpeza de campos com `.focus()` e `.value`
+
+- Geração de números aleatórios com `Math.random()`
+
+- Comparação de valores de campos de formulário
+
+🧾 Saída esperada:
+
+<p align="center">
+  <img src="./imagens/modulo08/funcionamento.gif">
+ </p>
+
+🧪 Exemplo de uso:
+
+- Número secreto: 6
+
+- 1ª: 1 → "Você Errou!"
+
+- 2ª: 3 → "Você Errou!"
+
+- 3ª: 6 → "Você Acertou!"
+
+---
