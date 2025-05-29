@@ -1,9 +1,9 @@
+let segredo = Math.round(Math.random() * 10);
+let input = document.querySelector("input");
+input.focus();
+
 function verificar() {
-  let segredo = 5;
-
-  let input = document.querySelector("input");
-  input.value;
-
+    
   if (input.value == segredo) {
     alert("Você Acertou!");
   } else {
