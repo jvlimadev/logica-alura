@@ -10,3 +10,6 @@ function verificar() {
     alert("Você Errou!");
   }
 }
+
+var botao = document.querySelector('button');
+botao.onclick = verificar;
