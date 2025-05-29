@@ -300,3 +300,5 @@ Neste exercício, o usuário deve adivinhar um número aleatório entre 0 e 10. 
 - 2ª: 2 → "Você Errou!"
 
 - 3ª: 3 → "Você Acertou!"
+
+---
