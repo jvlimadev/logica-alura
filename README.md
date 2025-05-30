@@ -186,7 +186,7 @@ Usuário informa:
 
 - Empates: 3
 
-   → Pontos: 10×3 + 3 = 28
+   → Pontos: 10×3 + 3 = 33
 
 ---
 
@@ -266,7 +266,7 @@ Neste exercício, o usuário informa quantos familiares deseja registrar e, em s
 
 - Idades digitadas: 3, 4, 5, 6
 
-   → Resultado: 28
+   → Resultado: 18
 
 ## ✅ Módulo 07 - Exercício 03: Adivinhe o Número (com Tentativas)
 Neste exercício, o usuário deve adivinhar um número aleatório entre 0 e 10. Ele tem até 3 tentativas para acertar. O jogo termina quando o número for descoberto ou as tentativas se esgotarem.
@@ -303,7 +303,7 @@ Neste exercício, o usuário deve adivinhar um número aleatório entre 0 e 10. 
 
 ---
 
-## ✅ Módulo 08 - Bônus: Jogo com Campo de Entrada e Botão
+## ✅ Módulo 08 - Jogo com Campo de Entrada e Botão
 Este exercício implementa o jogo de adivinhação com interface de usuário, usando elementos HTML (`input` e `button`) e eventos em JavaScript.
 
 🧠 Conceitos abordados:
