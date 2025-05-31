@@ -1,6 +1,21 @@
-let segredos = [1, 2, 3, 5];
+let segredos = gerarListaDeNumeros(3);
 let input = document.querySelector("input");
 input.focus();
+
+function sortearNumero() {
+  return Math.round(Math.random() * 10);
+}
+
+function gerarListaDeNumeros(quantidade) {
+  let numeros = [];
+  let contador = 1;
+
+  while(contador <= quantidade) {
+    numeros.push(sortearNumero());
+    contador++;
+  }
+  return numeros;
+}
 
 function verificar() {
   let achou = false;
