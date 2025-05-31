@@ -1,7 +1,3 @@
-let segredos = gerarListaDeNumeros(3);
-let input = document.querySelector("input");
-input.focus();
-
 function sortearNumero() {
   return Math.round(Math.random() * 10);
 }
@@ -11,8 +7,20 @@ function gerarListaDeNumeros(quantidade) {
   let contador = 1;
 
   while(contador <= quantidade) {
-    numeros.push(sortearNumero());
-    contador++;
+    let numeroAleatorio = sortearNumero();
+    let achou = false;
+
+    for(let i = 0; i < numeros.length; i++) {
+
+      if (numeros[i] == numeroAleatorio) {
+        achou = true;
+        break
+      }
+    }
+    if(achou == false) {
+      numeros.push(numeroAleatorio);
+      contador++;
+    }
   }
   return numeros;
 }
@@ -34,6 +42,10 @@ function verificar() {
   input.value = "";
   input.focus();
 }
+
+let segredos = gerarListaDeNumeros(10);
+let input = document.querySelector("input");
+input.focus();
 
 var botao = document.querySelector("button");
 botao.onclick = verificar;
