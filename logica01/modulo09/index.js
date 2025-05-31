@@ -1,13 +1,14 @@
-let segredo = Math.round(Math.random() * 10);
+let segredos = [1,2,3,5];
 let input = document.querySelector("input");
 input.focus();
 
 function verificar() {
     
-  if (input.value == segredo) {
-    alert("Você Acertou!");
-  } else {
-    alert("Você Errou!");
+  for(let i = 0; i < segredos.length; i++) {
+    if (input.value == segredos[i]) {
+      alert("Você Acertou!");
+      break;
+    }
   }
   input.value = '';
   input.focus();
