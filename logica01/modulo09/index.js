@@ -6,20 +6,21 @@ function gerarListaDeNumeros(quantidade) {
   let numeros = [];
   let contador = 1;
 
-  while(contador <= quantidade) {
+  while (contador <= quantidade) {
     let numeroAleatorio = sortearNumero();
-    let achou = false;
+    if (numeroAleatorio !== 0) {
+      let achou = false;
 
-    for(let i = 0; i < numeros.length; i++) {
-
-      if (numeros[i] == numeroAleatorio) {
-        achou = true;
-        break
+      for (let i = 0; i < numeros.length; i++) {
+        if (numeros[i] == numeroAleatorio) {
+          achou = true;
+          break;
+        }
       }
-    }
-    if(achou == false) {
-      numeros.push(numeroAleatorio);
-      contador++;
+      if (achou == false) {
+        numeros.push(numeroAleatorio);
+        contador++;
+      }
     }
   }
   return numeros;
@@ -44,6 +45,7 @@ function verificar() {
 }
 
 let segredos = gerarListaDeNumeros(10);
+alert(segredos);
 let input = document.querySelector("input");
 input.focus();
 
