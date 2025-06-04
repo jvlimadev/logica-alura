@@ -353,5 +353,5 @@ O sistema sorteia 10 números diferentes entre 1 e 10 (excluindo o zero), e o us
 🧾 Saída esperada:
 
 <p align="center">
-  <img src="./imagens/modulo08/funcionamento.gif">
+  <img src="./imagens/modulo09/funcionamento.gif">
  </p>
