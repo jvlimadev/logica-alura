@@ -335,3 +335,23 @@ Este exercício implementa o jogo de adivinhação com interface de usuário, us
 - 3ª: 6 → "Você Acertou!"
 
 ---
+
+## ✅ Módulo  09 - Jogo de Adivinhação com Múltiplos Números
+Neste móduloi, criaremos um jogo onde o usuário deve tentar acertar um número secreto, mas com uma diferença: **existem 10 números secretos!**
+
+O sistema sorteia 10 números diferentes entre 1 e 10 (excluindo o zero), e o usuário tenta adivinhar se o número digitado está entre eles.
+
+🧠 Conceitos abordados:
+
+- Funções
+- Laços de repetição (`while`, `for`)
+- Condicionais (`if/else`)
+- Arrays
+- Manipulação do DOM (`querySelector`, `onclick`)
+- Função `Math.random()` e `Math.round()`
+
+🧾 Saída esperada:
+
+<p align="center">
+  <img src="./imagens/modulo08/funcionamento.gif">
+ </p>

@@ -45,7 +45,6 @@ function verificar() {
 }
 
 let segredos = gerarListaDeNumeros(10);
-alert(segredos);
 let input = document.querySelector("input");
 input.focus();
 
