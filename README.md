@@ -1,4 +1,4 @@
-# 🧠 Curso de Lógica de Programação - Alura
+# 🧠 Curso de Lógica de Programação 01 - Alura
  Este repositório contém os projetos e exercícios desenvolvidos durante o curso **Lógica de Programação** da plataforma **Alura**, ministrado pelo professor **Flávio Henrique de Souza Almeida**.
 
 O curso é dividido em **9 módulos**, abordando os principais conceitos introdutórios de lógica de programação de forma prática e progressiva.
